@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Space Grotesk';
+}
+
+body {
+    background-color: #1db954;
+}
+
+html {
+    white-space: nowrap;
+}
+
+body {
+    display: inline-block;
+    overflow-x: hidden
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden
+}
+
+.cabecalho {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 200px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    padding-left: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.menu a.link-ativo {
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.seta {
+    padding-left: 55px;
+    position: absolute;
+    width: 14px;
+    height: 0px;
+    left: 1597px;
+    top: 27px;
+}
+
+.banner01-titulo {
+    position: absolute;
+    width: 570px;
+    height: 371px;
+    left: 150px;
+    top: 200px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 87px;
+    line-height: 93px;
+    color: #000000;
+    padding-left: 170px;
+}
+
+
+.banner01-paragrafo {
+    position: absolute;
+    width: 553px;
+    height: 93px;
+    left: 150px;
+    top: 680px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: black;
+    padding-left: 170px;
+}
+
+.divisor {
+    position: absolute;
+    width: 1917px;
+    height: 0px;
+    left: 0px;
+    top: 59px;
+    margin: 0;
+    border: 1px solid black;
+}
+
+.fone {
+    position: absolute;
+    width: 500px;
+    height: 0px;
+    left: 879px;
+    top: 68px;
+    background: url(.png);
+    padding-left: 200px;
+}
